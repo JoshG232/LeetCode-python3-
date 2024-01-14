@@ -14,7 +14,9 @@ class Solution:
                 l = mid + 1
 
         if nums[l] != target:
+            print("not found")
             return -1
+        print("Found")
         return l
 
 
@@ -23,4 +25,4 @@ class Solution:
 
 obj = Solution()
 
-obj.search([-1,0,3,5,9,12],9)
+obj.search([-1,0,3,5,9,12],5)
