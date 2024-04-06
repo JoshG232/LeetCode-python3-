@@ -7,8 +7,10 @@ class Solution:
         for x in nums: 
             if x not in finalNums:
                 finalNums.append(x)
-        k = len(finalNums)
+
         
+        k = len(finalNums)
+
         return k
 
 obj = Solution
